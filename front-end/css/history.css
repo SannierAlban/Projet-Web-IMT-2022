@@ -1,0 +1,50 @@
+#backMenu{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background: #76e26c;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.2s all ease-in-out;
+}
+
+#backMenu:hover{
+    background: #9EFF96;
+    cursor: pointer;
+}
+
+#table-container {
+    display: flex;
+    justify-content: center;
+}
+
+#table-active {
+    width: 1280px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+thead tr{
+    background: #9EFF96;
+    border: 1px solid black;
+}
+
+thead th{
+    border: 1px solid black;
+}
+
+tbody tr td{
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+
+tbody tr:nth-child(odd){
+    background: white;
+}
+
+tbody tr:nth-child(even){
+    background: lightgrey;
+}

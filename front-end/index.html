@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <script src="js/login.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/toptitle.css">
+
+
+
+</head>
+
+    <body>
+        <div class="container-gametitle">
+            <h1 id="title-game">Risky</h1>
+        </div>
+
+        <div class="container-login-box">
+            <h1 id="message-login-box"></h1>
+        </div>
+
+        <div class="wrapper-login">
+            <div class="container-login">
+                <img src="img/user-solid.svg" alt="userIcon" id="img-login">
+                    <div class="login-item">
+                        <input class="input-login" type="text" id="pseudo-login" name="pseudo-login">
+                        <label class="input-label" for="mdp-login">Pseudo :</label>
+                    </div>
+                    <div class="login-item">
+                        <input class="input-login" type="password" id="mdp-login" name="mdp-login">
+                        <label class="input-label" for="mdp-login">Mot de passe :</label>
+                    </div>
+                    <button class="login-button" id="connect-button" onclick="checkUser();">Connexion</button>
+            </div>
+        </div>
+        
+    <script src="js/login.js"></script>
+    </body>
+
+</html>

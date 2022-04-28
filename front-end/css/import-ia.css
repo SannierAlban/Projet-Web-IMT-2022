@@ -1,0 +1,51 @@
+#backMenu{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background: #d99fe7;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.2s all ease-in-out;
+}
+
+#backMenu:hover{
+    background: #F2BEFF;
+    cursor: pointer;
+}
+
+.wrapper-import{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.container-import{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#import-button{
+    margin-top: 30px;
+    background: #d99fe7;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.2s all ease-in-out;
+}
+
+#import-button:hover{
+    background: #F2BEFF;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.wrapper-choice{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.container-button{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 300px;
+    height: 250px;
+    transition: 0.2s all ease-in-out;
+    border: none;
+    font-size: 28px;
+    color: #6D5D5D;
+}
+
+.container-button button:hover{
+    cursor: pointer;
+}
+
+#youvsia{
+    background: #76e26c;
+}
+
+#youvsia:hover{
+    background: #9EFF96;
+}
+
+#iavsia{
+    background: #d99fe7;
+}
+
+#iavsia:hover{
+    background: #F2BEFF;
+}
+
+.wrapper-history{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#history{
+    background: linear-gradient(90deg, rgba(118,226,108,1) 0%, rgba(217,159,231,1) 100%);
+    transition: 0.2s all ease-in-out;
+}
+
+#history:hover{
+    cursor: pointer;
+    background: linear-gradient(90deg, #9EFF96 0%, #F2BEFF 100%);
+}

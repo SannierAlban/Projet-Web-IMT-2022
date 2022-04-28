@@ -1,0 +1,17 @@
+#backMenu{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    background: #76e26c;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.2s all ease-in-out;
+}
+
+#backMenu:hover{
+    background: #9EFF96;
+    cursor: pointer;
+}

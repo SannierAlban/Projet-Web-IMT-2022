@@ -1,0 +1,10 @@
+body{
+    background:#F0F0F0;
+}
+
+#title-game{
+    font-size: 96px;
+    color: #A3A3A3;
+    font-weight: 100;
+    text-align: center;
+}

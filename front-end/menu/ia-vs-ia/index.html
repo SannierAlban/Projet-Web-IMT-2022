@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA vs IA</title>    
+    <link rel="stylesheet" href="../../css/toptitle.css">
+    <link rel="stylesheet" href="../../css/iavsia.css">
+
+</head>
+
+<body>
+
+    <a href="../index.html">
+        <button id="backMenu">MENU</button>
+    </a>
+
+    <div class="container-gametitle">
+        <h1 id="title-game">Risky</h1>
+    </div>
+
+    <div class="wrapper-radio">
+        <div class="container-radio">
+            <div class="container-ia" >
+                <h1 class="title-ia">Selectionnez une ia</h1>
+                <div class="container-ia-name" id="container-left">
+                </div>
+            </div>
+            <div class="container-ia" >
+                <h1 class="title-ia">Selectionnez une ia</h1>
+                <div class="container-ia-name" id="container-right">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-combat">
+        <div class="container-combat">
+            <input type="number" name="nbrCombat" id="nbrCombat" placeholder="Nombre de combat :">
+            <button id="fightButton">Combattre</button> 
+        </div>
+    </div>
+
+    <div class="wrapper-results" id="wrapper-results">        
+        <h1>Résultats</h1>
+        <div class="container-results">
+            <div class="container-result-info" id="infoPlayer1">
+                <h1>Player 1</h1>
+                <p></p>
+            </div>
+            <div class="container-result-info" id="infoWinner">
+                <h1>Vainqueur</h1>
+            </div>
+            <div class="container-result-info" id="infoPlayer2">
+                <h1>Player 2</h1>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../js/iavsia.js"></script>
+</body>
+</html>
