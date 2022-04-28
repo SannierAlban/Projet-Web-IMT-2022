@@ -46,26 +46,3 @@ http://localhost:8080/user/authentication?user_name=Alban&user_password=P@$$w0rd
 ```
 {"userId":0,"userName":"Alban","userPassword":"P@$$w0rd"}
 ```
-
-
-Lancement de la partie IA vs IA
-
-Avec deux IA de base
-```
-python3 confront.py
-```
-
-Avec une IA sélectionnée contre une IA de base
-```
-python3 confront.py [nomIA]
-```
-
-Avec deux IA sélectionnées
-```
-python3 [nomIA1] [nomIA2]
-```
-
-Avec l’ip de la machine contenant le serveur de jeux et deux IA sélectionnées 
-```
-python3 [ip] [nomIA1] [nomIA2]
-```
