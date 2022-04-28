@@ -3,8 +3,30 @@ function getRandomInt(max) {
 }
 
 const allIAs = [["1","1simplePlayer.py"],["2","2simplePlayer.py"],["3","3simplePlayer.py"],["4","4simplePlayer.py"],["5","5simplePlayer.py"]];
-
 // Au dessus ça simule le fait que je récup les ia du endpoint
+
+function getIas(){
+    var xhr = new XMLHttpRequest(),
+    method = "GET";
+    var url = "/server/getIas"; 
+    xhr.open(method, url, true);
+    xhr.setRequestHeader("Accept", "application/json; charset=UTF-8");
+    xhr.onreadystatechange = function () {
+        if(xhr.readyState === 4 && xhr.status === 200) {
+            ResponseIA = xhr.responseText;
+            TranformIAs(ResponseIA);
+        } else {
+            console.log("nope");
+        }
+    };
+    xhr.send();
+}
+/* getIas(); */
+
+function TransformIA(){
+
+}
+
 
 //insert into right choice
 var containerLeft = document.getElementById("container-left");
